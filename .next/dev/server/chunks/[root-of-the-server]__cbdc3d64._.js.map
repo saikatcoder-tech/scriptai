@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 122, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/saikat%20biswas/Desktop/scribeai_project/lib/auth.ts"],"sourcesContent":["import { betterAuth } from \"better-auth\";\n\nexport const auth = betterAuth({\n  emailAndPassword: {\n    enabled: true,\n  },\n});\n"],"names":[],"mappings":";;;;AAAA;;;;;;AAEO,MAAM,OAAO,IAAA,+JAAU,EAAC;IAC7B,kBAAkB;QAChB,SAAS;IACX;AACF"}},
+    {"offset": {"line": 150, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/saikat%20biswas/Desktop/scribeai_project/app/api/auth/%5B...all%5D/route.ts"],"sourcesContent":["import { auth } from \"../../../../lib/auth\";\nimport { toNextJsHandler } from \"better-auth/next-js\";\n\nexport const { GET, POST } = toNextJsHandler(auth.handler);\n"],"names":[],"mappings":";;;;;;AAAA;AACA;;;;;;;AAEO,MAAM,EAAE,GAAG,EAAE,IAAI,EAAE,GAAG,IAAA,yKAAe,EAAC,qHAAI,CAAC,OAAO"}}]
+}

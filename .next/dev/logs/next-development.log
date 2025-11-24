@@ -1,0 +1,243 @@
+[00:00:01.097] Server  LOG      ✓ Ready in 711ms
+[00:00:03.805] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.380] Server  ERROR    ⨯ ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:06.507] Browser ERROR   ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:06.507] Browser ERROR   ./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:07.184] Browser ERROR   ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:07.184] Browser ERROR   ./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:07.184] Browser ERROR   ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:07.184] Browser ERROR   ./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.696] Browser ERROR   ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.696] Browser ERROR   ./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:08.696] Browser ERROR   unhandledRejection: BetterAuthError: Failed to fetch CSRF token: undefined
+[00:03:11.125] Browser ERROR   ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:11.125] Browser ERROR   ./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.126] Browser ERROR   ./lib/prisma.ts:2:1
+Module not found: Can't resolve '@prisma/client/runtime/library'
+  1 | // lib/prisma.ts
+> 2 | import { PrismaClient } from "@prisma/client/runtime/library";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
+[00:03:40.126] Browser ERROR   ./lib/prisma.ts:3:1
+Module not found: Can't resolve '@prisma/extension-accelerate'
+  1 | // lib/prisma.ts
+  2 | import { PrismaClient } from "@prisma/client/runtime/library";
+> 3 | import { withAccelerate } from "@prisma/extension-accelerate"; // required for Prisma v6 local db
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 |
+  5 | const globalForPrisma = globalThis as unknown as {
+  6 |   prisma?: PrismaClient;
+
+Import trace:
+  App Route:
+    ./lib/prisma.ts
+    ./lib/auth.ts
+    ./app/api/auth/[...all]/route.ts
+
+https://nextjs.org/docs/messages/module-not-found
